@@ -6,6 +6,15 @@ features, so that the entire project can be duplicated for
 new backends. In addition, it provides a playground for
 learning.
 
+# First Time Setup
+## Creating Virtual Environment from requirements.txt
+Navigate to the root of the repository.
+
+Use the `requirements.txt` file to generate a `venv` directory.
+```bash
+python3 -m venv venv
+```
+
 # Common Commands
 ## Starting the Test Server
 Activate the [python virtual environment first](#activating-the-virtual-environment),
