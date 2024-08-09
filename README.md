@@ -15,8 +15,6 @@ Use the `requirements.txt` file to generate a `venv` directory.
 python3 -m venv venv
 ```
 
-## 
-
 # Common Commands
 ## Starting the Test Server
 Activate the [python virtual environment first](#activating-the-virtual-environment),
@@ -46,7 +44,7 @@ To build a Docker container however, we need a `requirements.txt`
 that describes the python dependencies that should be installed
 inside the container.
 
-You can create one while inside of a virtual environment.
+You can create one while inside a virtual environment.
 
 1. Activate venv.
 ```bash
@@ -62,5 +60,3 @@ pip3 freeze > requirements.txt
 ```bash
 docker build -f docker/Dockerfile -t django:1.0.0 .
 ```
-
-# Project Organization

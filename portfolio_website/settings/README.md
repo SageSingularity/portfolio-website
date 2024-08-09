@@ -13,9 +13,9 @@ This directory establishes environment-specific settings for Django.
 
 ## Starting Django with a Specific Environment
 ```bash
-python manage.py runserver --settings=django_template.settings.<environment_name>
+python manage.py runserver --settings=portfolio-website.settings.<environment_name>
 ```
 For example:
 ```bash
-python manage.py runserver --settings=django_template.settings.development
+python manage.py runserver --settings=portfolio-website.settings.development
 ```
